@@ -1,0 +1,11 @@
+{
+  "name": "proxy-hide-properties",
+  "version": "1.0.0",
+  "description": "Hide a property from all conceivable ways of being detected",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Keith Cirkel <npm@keithcirkel.co.uk> (http://keithcirkel.co.uk/)",
+  "license": "MIT"
+}
