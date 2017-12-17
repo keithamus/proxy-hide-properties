@@ -15,8 +15,8 @@ npm i proxy-hide-properties
 Simply call the exported function with an object and a list of property names, and it'll return a wrapped object back. The given property names will be hidden from view - all the ways you could determine if they're present will not work. All other properties will work as normal. A simple illustration:
 
 ```js
-const proxyMethodMissing = require('proxy-method-missing');
-const example = proxyMethodMissing({ foo: 1, bar: 2 }, 'foo');
+const hideProperty = require('proxy-hide-properties');
+const example = hideProperty({ foo: 1, bar: 2 }, 'foo');
 'foo' in example; // false
 'bar' in example; // true
 Object.keys(example); // ['bar']
